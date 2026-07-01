@@ -70,3 +70,14 @@ function comecaCronometro() {
 }
 
 comecaCronometro();
+//comecaCronometro();
+<>
+  //comecaCronometro();
+  <div class="contador">
+    <div class="contador-digito"></div>
+  </div><div class="contador">
+    <div class="contador-digito">
+      <p class="contador-digito-numero">7</p>
+      <p class="contador-digito-texto">dias</p>
+    </div>
+  </div></>
