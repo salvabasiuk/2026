@@ -4,9 +4,9 @@
   --cor-de-fundo: #030303;
   --laranja: #000000;
   --branco: #ffffff;
-  --botao-ativo: #02f802dc;
-  --botao-inativo: rgba(253, 107, 9, 0.322);
-  --texto-fundo: rgba(97, 23, 0, 0.3);
+  --botao-ativo: #e4e1f0dc;
+  --botao-inativo: rgba(253, 107, 9, 0);
+  --texto-fundo: rgba(7, 7, 7, 0.3);
 }
 
 body {
@@ -93,7 +93,7 @@ body {
 }
 
 .contador-digito {
-  padding: 0 16px;
+  padding: 0 32px;
   text-align: center;
   min-width: 100px;
 }
@@ -105,7 +105,7 @@ body {
 
 .contador-digito-texto {
   color: var(--branco);
-  font-size: 20px;
+  font-size: 48px;
   margin: 0;
 }
 
