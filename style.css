@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap");
 
 :root {
-  --cor-de-fundo: #1e1e1e;
-  --verde: #6fff57;
+  --cor-de-fundo: #030303;
+  --laranja: #000000;
   --branco: #ffffff;
-  --botao-ativo: #3a375e;
-  --botao-inativo: rgba(58, 55, 94, 0.5);
-  --texto-fundo: rgba(58, 55, 94, 0.3);
+  --botao-ativo: #02f802dc;
+  --botao-inativo: rgba(253, 107, 9, 0.322);
+  --texto-fundo: rgba(97, 23, 0, 0.3);
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 .titulo-principal span {
-  color: var(--verde);
+  color: var(--laranja);
 }
 
 .botao {
@@ -59,7 +59,7 @@ body {
 
 .ativo {
   background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
+  border-bottom: 4px solid var(--laranja);
 }
 
 .abas-textos {
@@ -80,16 +80,33 @@ body {
   font-size: 28px;
   text-align: center;
 }
-
 .aba-conteudo-titulo-secundario {
   text-align: center;
-  color: var(--verde);
+  color: var(--branco);
   text-transform: uppercase;
 }
 
 .contador {
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contador-digito {
+  padding: 0 16px;
   text-align: center;
+  min-width: 100px;
+}
+
+.contador-digito-numero {
+  font-size: 80px;
+  margin: 0;
+}
+
+.contador-digito-texto {
+  color: var(--branco);
+  font-size: 20px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -107,9 +124,3 @@ body {
   }
 
 }
-
-.contador {
-  display: flex;
-  justify-content: center;
-}
-
